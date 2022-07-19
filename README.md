@@ -42,6 +42,16 @@ Lastly install node.js and serve package to enable web interface
     $ sudo apt install nodejs npm
     $ npm i serve
     
+If you want to initialize the web service and script on startup, add this to /etc/rc.local:
+
+```
+(
+  cd /home/pi/DeepPicar-v3
+  nice --20 python3 deeppicar.py -w -n 4 -f 30 &> /dev/null &
+  nice --20 sudo -u pi npx serve web/dist/ &> /dev/null &
+)
+```
+    
 ## Manual control and Data collection
 
 To start the backend server
