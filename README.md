@@ -6,6 +6,20 @@ of [NVIDIA's real self-driving car called DAVE-2](https://developer.nvidia.com/b
 roads using a CNN. DeepPicar uses the same CNN architecture of NVIDIA's
 DAVE-2 and can drive itself in real-time locally on a Raspberry Pi.
 
+## Required Parts
+
+There are five main parts that are needed in order to assemble the DeepPicar. 
+
+| Part                         | Approx. Cost ($) |
+ ----------------------------  | ----------------
+| Raspberry Pi Zero 2 W        | 15 |
+| New Bright 1:24 scale RC car | 10 |
+| MicroSD Card (32 GB)         | 8 |
+| Pololu DRV8835 motor driver  | 16 |
+| Power bank                   | 14 |
+
+Miscellaneous parts: jumper cables (to connect motor driver to motor) and USB to microUSB connectors (to power pi and motor driver)
+
 ## Build instructions video
 
 https://www.youtube.com/watch?v=X1DDN9jcwjk
