@@ -14,11 +14,12 @@ There are five main parts that are needed in order to assemble the DeepPicar.
  ----------------------------  | ----------------
 | Raspberry Pi Zero 2 W        | 15 |
 | New Bright 1:24 scale RC car | 10 |
-| MicroSD Card (32 GB)         | 8 |
+| MicroSD Card (32 GB)         | 8  |
 | Pololu DRV8835 motor driver  | 16 |
 | Power bank                   | 14 |
+| Raspberry Pi Zero Camera v1.3| 15 |
 
-Miscellaneous parts: jumper cables (to connect motor driver to motor) and USB to microUSB connectors (to power pi and motor driver)
+Miscellaneous parts: jumper cables (to connect motor driver to motor), USB to microUSB connectors (to power pi and motor driver), wireless gamepad and microUSB to USB female adaptor (for alternative control)
 
 ## Build instructions video
 
