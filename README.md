@@ -116,6 +116,6 @@ Enable autonomous driving through the `Start DNN` button.
 
 ## Driving Videos
 
-[![DeepPicar Driving](http://img.youtube.com/vi/SrS5iQV2Pfo/0.jpg)](http://www.youtube.com/watch?v=SrS5iQV2Pfo "DeepPicar_Video")
+[![DeepPicar Driving](https://i9.ytimg.com/vi/16sO3B9hpik/mq3.jpg?sqp=CNCVgJcG&rs=AOn4CLACSEvqHUZ3u1juiCFFWmpWON_4xw)](https://youtu.be/16sO3B9hpik "DeepPicar_Video")
 
 Some other examples of the DeepPicar driving can be found at: https://photos.app.goo.gl/q40QFieD5iI9yXU42
