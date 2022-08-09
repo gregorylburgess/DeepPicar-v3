@@ -118,14 +118,13 @@ class stream_handler(BaseHTTPRequestHandler):
             print(data)
             stream_handler.streaming = data['params']['streaming']
         elif self.path == '/upload':
-            filename = "large-200x66x3.tflite"
             file_length = int(self.headers['Content-Length'])
             read = 0
-            with open('./models/'+filename, 'wb') as output_file:
+            with open(params.model_file, 'wb') as output_file:
                 output_file.write(self.rfile.read(file_length))
             self.send_response(201, 'Created')
             self.end_headers()
-            reply_body = 'Saved "%s"\n' % filename
+            reply_body = 'Saved "%s"\n' % params.model_file
             self.wfile.write(reply_body.encode('utf-8'))
             load_model()
         elif self.path == '/input_switch':
